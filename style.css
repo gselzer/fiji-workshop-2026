@@ -1,0 +1,105 @@
+/*
+  Global styles for the deck. Slidev loads this file automatically.
+  Everything visual that applies to all slides lives here, so restyling
+  the deck later means editing this file rather than every slide.
+*/
+
+/* The original PowerPoint used Aptos, which browsers usually can't see
+   (Office installs it as a private "cloud font"). Calibri ships with Office
+   on Windows and Mac; Carlito is its metric-compatible free twin. */
+.slidev-layout {
+  font-family: Aptos, Calibri, Carlito, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Background of every slide. Kept very light so images with white
+   backgrounds don't stand out as boxes. A slide's `background:` image
+   (section layout) still draws on top of this color. */
+:root {
+  --slide-bg: #faf8f3;
+
+  /* Fluorescence channel colors (RGB components, used with rgba()) */
+  --dapi-rgb:   70, 90, 220;
+  --fitc-rgb:  110, 210, 0;
+  --tritc-rgb: 255, 185, 0;
+
+  /* Solid border/accent shades derived from each channel */
+  --dapi-border:  #4050cc;
+  --fitc-border:  #6aaa00;
+  --tritc-border: #cc9200;
+}
+.slidev-layout {
+  background-color: var(--slide-bg);
+}
+/* Slidev's default theme fades the first paragraph after a title */
+.slidev-layout h1 + p {
+  opacity: 1;
+}
+
+/* Plain Markdown content starts below the title area. (Elements with
+   class="abs" are positioned from the slide's corner and ignore this.) */
+.slidev-layout.default {
+  padding-top: 120px;
+}
+
+/* Title on normal (non-section) slides, centered in the top 105px */
+.slidev-layout.default h1 {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 52px;
+  transform: translateY(-50%);
+  margin: 0;
+  font-size: 45px;
+  line-height: 1.05;
+}
+
+/* Section-divider slides (layouts/section.vue) */
+.slidev-layout.section h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 0.4em;
+}
+.slidev-layout.section > p {
+  margin: 0.2em 0;
+  font-size: 24px;
+}
+
+/* Elements converted from PowerPoint are placed at fixed px positions
+   on the 980 x 551 canvas */
+.abs {
+  position: absolute;
+}
+div.abs {
+  padding: 4px 7px;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+.abs p,
+.abs li {
+  margin: 0.25em 0;
+  line-height: 1.1;
+}
+.abs ul,
+.abs ol {
+  margin: 0;
+  padding-left: 1.1em;
+}
+/* nested bullets are a bit smaller than their parent; a text box can
+   override the ratio with e.g. style="--nest: 1" */
+.abs li > ul,
+.abs li > ol {
+  font-size: calc(var(--nest, 0.86) * 1em);
+}
+.abs ul {
+  list-style: disc;
+}
+img.abs,
+video.abs {
+  object-fit: fill;
+  max-width: none;
+}
+
+/* Fiji / implementation slides — light blue tint */
+.fiji-slide {
+  --slide-bg: #e3f2fd;
+}

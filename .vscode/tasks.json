@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Slidev: run deck",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Slidev: export PDF",
+      "type": "npm",
+      "script": "export",
+      "problemMatcher": []
+    }
+  ]
+}
