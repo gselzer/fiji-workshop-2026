@@ -39,61 +39,55 @@ class: fiji-slide
 
 # Classical segmentation in Fiji
 
-<img class="abs" src="/media/blobs.png" style="left:20px; top:210px; width:185px">
-<div class="abs" style="left:20px; top:178px; width:185px; font-size:14px; font-weight:bold; text-align:center">Input image</div>
+<img class="abs" src="/media/blobs.png" style="left:20px; top:285px; width:157px">
+<div class="abs" style="left:20px; top:253px; width:157px; font-size:14px; font-weight:bold; text-align:center">Input image</div>
 
-<img v-click="1" class="abs" src="/media/blobs_thresholding.png" style="left:265px; top:210px; width:185px">
-<img v-click="1" class="abs" src="/media/blobs_thresholding_widget.png" style="left:462px; top:230px; width:195px">
-<div v-click="1" class="abs" style="left:245px; top:178px; width:420px; font-size:14px; font-weight:bold; text-align:center"><code>Ctrl+Shift+T</code> to threshold</div>
+<img v-click="1" class="abs" src="/media/blobs_thresholding.png" style="left:275px; top:285px; width:157px">
+<img v-click="1" class="abs" src="/media/blobs_thresholding_widget.png" style="left:452px; top:305px; width:166px">
+<div v-click="1" class="abs" style="left:245px; top:253px; width:420px; font-size:14px; font-weight:bold; text-align:center"><code>Ctrl+Shift+T</code> to threshold</div>
 
-<div v-click="2" class="abs" style="left:290px; top:482px; width:140px; font-size:12px; color:#00c02a; text-align:center; line-height:1.3">
-  <strong>Threshold Strategy</strong><br>
-  <span style="font-size:10px"><a href="https://en.wikipedia.org/wiki/Otsu%27s_method">Otsu</a> is a nice option!</span>
+<div v-click="2" class="abs" style="left:645px; top:95px; width:320px; font-size:15px; padding:5px 10px; background:rgba(255,152,0,0.12); border-left:4px solid rgba(255,152,0,0.9)">
+
+**Threshold Strategy** — Otsu is a nice option!
+
 </div>
-<div v-click="2" class="abs" style="left:440px; top:482px; width:120px; font-size:12px; color:#c03000; text-align:center; line-height:1.3">
-  <strong>Dark background</strong><br>
-  <span style="font-size:10px">Select if your objects are bright</span>
+<div v-click="3" class="abs" style="left:645px; top:130px; width:320px; font-size:15px; padding:5px 10px; background:rgba(76,175,80,0.12); border-left:4px solid rgba(76,175,80,0.9)">
+
+**Dark background** — Select if your objects are bright
+
 </div>
-<div v-click="2" class="abs" style="left:556px; top:482px; width:120px; font-size:12px; color:#004080; text-align:center; line-height:1.3">
-  <strong>Stack histogram</strong><br>
-  <span style="font-size:10px">Select for a timelapse / z-stack</span>
+<div v-click="4" class="abs" style="left:645px; top:181px; width:320px; font-size:15px; padding:5px 10px; background:rgba(156,39,176,0.12); border-left:4px solid rgba(156,39,176,0.9)">
+
+**Stack histogram** — Select for a timelapse / z-stack
+
 </div>
 
-<img v-click="3" class="abs" src="/media/blobs_thresholded.png" style="left:755px; top:210px; width:185px">
-<div v-click="3" class="abs" style="left:733px; top:178px; width:215px; font-size:14px; font-weight:bold; text-align:center">Click <code>Apply</code> to threshold</div>
+<img v-click="5" class="abs" src="/media/blobs_thresholded.png" style="left:755px; top:285px; width:157px">
+<div v-click="5" class="abs" style="left:733px; top:253px; width:215px; font-size:14px; font-weight:bold; text-align:center">Click <code>Apply</code> to threshold</div>
 
 <svg class="abs" style="left:0; top:0; width:980px; height:551px; pointer-events:none" viewBox="0 0 980 551" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <marker id="arr8" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0,0 8,3 0,6" fill="#333"/>
     </marker>
-    <marker id="arr8-o" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0,0 8,3 0,6" fill="#c03000"/>
-    </marker>
-    <marker id="arr8-b" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0,0 8,3 0,6" fill="#004080"/>
-    </marker>
-    <marker id="arr8-g" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0,0 8,3 0,6" fill="#00c02a"/>
-    </marker>
   </defs>
   <g v-click="1">
-    <path d="M 205 316 H 260" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arr8)"/>
+    <path d="M 185 364 H 260" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arr8)"/>
   </g>
   <g v-click="2">
-    <!-- Dark background highlight -->
-    <rect x="485" y="352" width="81" height="16" fill="rgba(0, 192, 48, 0.1)" stroke="#00c02a" stroke-width="1.5" rx="2"/>
-    <!-- Dark background highlight -->
-    <rect x="478" y="372" width="81" height="16" fill="rgba(192,48,0,0.1)" stroke="#c03000" stroke-width="1.5" rx="2"/>
-    <!-- Stack histogram highlight -->
-    <rect x="560" y="372" width="84" height="16" fill="rgba(0,64,128,0.1)" stroke="#004080" stroke-width="1.5" rx="2"/>
-    <!-- Callout arrows -->
-    <path d="M 360 479 L 485 370" stroke="#00c02a" stroke-width="1.2" fill="none" marker-end="url(#arr8-g)"/>
-    <path d="M 500 479 L 519 392" stroke="#c03000" stroke-width="1.2" fill="none" marker-end="url(#arr8-o)"/>
-    <path d="M 616 479 L 605 392" stroke="#004080" stroke-width="1.2" fill="none" marker-end="url(#arr8-b)"/>
+    <!-- Threshold strategy highlight -->
+    <rect x="472" y="409" width="69" height="14" fill="rgba(255,152,0,0.1)" stroke="rgba(255,152,0,0.9)" stroke-width="1.5" rx="2"/>
   </g>
   <g v-click="3">
-    <path d="M 657 358 Q 700 358 750 316" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arr8)"/>
+    <!-- Dark background highlight -->
+    <rect x="466" y="426" width="69" height="14" fill="rgba(76,175,80,0.1)" stroke="rgba(76,175,80,0.9)" stroke-width="1.5" rx="2"/>
+  </g>
+  <g v-click="4">
+    <!-- Stack histogram highlight -->
+    <rect x="535" y="426" width="71" height="14" fill="rgba(156,39,176,0.1)" stroke="rgba(156,39,176,0.9)" stroke-width="1.5" rx="2"/>
+  </g>
+  <g v-click="5">
+    <path d="M 628 414 Q 665 414 750 364" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arr8)"/>
   </g>
 </svg>
 
