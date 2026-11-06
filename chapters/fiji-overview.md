@@ -12,9 +12,9 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s16-picture-2.png" style="left:467px; top:146px; width:363px; height:388px">
+<img class="abs" src="/media/fiji_architecture.png" style="left:467px; top:146px; width:363px; height:388px">
 
-<img class="abs" src="/media/s16-picture-4.png" style="left:329px; top:270px; width:120px; height:120px">
+<img class="abs" src="https://loci.wisc.edu/wp-content/uploads/sites/1939/2023/01/Curtis2-150x150.jpg" style="left:329px; top:270px; width:120px; height:120px">
 
 <div class="abs" style="left:139px; top:391px; width:500px; font-size:18px; text-align:center">
 
@@ -22,9 +22,9 @@ Curtis Rueden
 
 </div>
 
-<img class="abs" src="/media/s16-picture-6.png" style="left:848px; top:261px; width:120px; height:120px">
+<img class="abs" src="https://imagej.net/media/people/wayne-rasband.jpg" style="left:848px; top:261px; width:120px; height:120px">
 
-<div class="abs" style="left:830px; top:385px; width:189px; font-size:18px">
+<div class="abs" style="left:840px; top:385px; width:189px; font-size:18px">
 
 Wayne Rasband
 
@@ -76,7 +76,7 @@ class: fiji-slide
 <div v-click="4" class="abs" style="left:779px; top:154px; width:181px; height:23px; background:rgba(0,150,136,0.4); pointer-events:none"></div>
 <div v-click="4" class="abs" style="left:20px; top:339px; width:350px; font-size:18px; padding:6px 12px; background:rgba(0,150,136,0.12); border-left:4px solid rgba(0,150,136,0.9)">
 
-**Search** — Ctrl+L (or click the icon) to find any menu command by name
+**Search** — `Ctrl+L` (or click the searchbar) to find any command by name
 
 </div>
 
@@ -84,52 +84,11 @@ class: fiji-slide
 
 ---
 class: fiji-slide
-hide: true <!-- TODO: What is the point of this -->
 ---
 
-# Operating the interface
+# `Help → Update...` updates your Fiji...
 
-<div class="abs" style="left:616px; top:137px; width:339px; font-size:24px; --nest:1.00">
-
-- Selections
-- Hold shift to make vertical/horizontal lines and perfect circles
-- Regions of interest → ROIs
-  - Can be added to ROI manager and saved
-
-</div>
-
-<video class="abs" src="/media/s19-screen-recording-2026-02-23-at-1-12-12-p.mov" poster="/media/s19-screen-recording-2026-02-23-at-1-12-12-p.png" controls style="left:24px; top:135px; width:574px; height:374px"></video>
-
----
-class: fiji-slide
-hide: true
----
-
-# There is a search bar to easily open certain features
-
-<img class="abs" src="/media/s20-google-shape-274-p21.png" style="left:-15px; top:117px; width:624px; height:448px">
-
-<div class="abs" style="left:608px; top:133px; width:347px; font-size:24px">
-
-- Edit → Options → Search Bar
-- Control + L brings up the search bar
-- Or simply click the bar at the bottom left of the interface
-
-</div>
-
-<div class="abs" style="left:628px; top:411px; width:308px; height:106px; font-size:20px; text-align:center; border:2px solid #000000">
-
-***Tip: Find more keyboard shortcuts here*** ***<https://imagej.net/ij/docs/shortcuts.html>***
-
-</div>
-
----
-class: fiji-slide
----
-
-# Fiji and all plugins can be manually updated
-
-<img class="abs" src="/media/s21-google-shape-282-p22.png" style="left:40px; top:133px; width:582px; height:337px; border:2px solid #0E2841">
+<img class="abs" src="/media/fiji_help_update.png" style="left:40px; top:133px; width:582px; height:337px; border:2px solid #0E2841">
 
 <BlockArrow dir="right" x="252" y="294" w="159" h="56" color="#FF0000" />
 
@@ -159,7 +118,7 @@ If plugin breaks, get latest ImageJ → If doesn’t put in a request (image.sc)
 class: fiji-slide
 ---
 
-# The user can indicate specific update sites
+# ...and manages Plugins through *update sites*
 
 <div class="abs" style="left:650px; top:221px; width:307px; font-size:24px">
 
@@ -167,7 +126,7 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s22-google-shape-294-p23.png" style="left:66px; top:109px; width:528px; height:393px">
+<img class="abs" src="/media/fiji_update_sites.png" style="left:66px; top:109px; width:528px; height:393px">
 
 <LinkButton left="50" top="504" width="582" height="37" href="https://imagej.net/update-sites/following" icon="📦" />
 
@@ -177,9 +136,9 @@ class: fiji-slide
 
 # Stuck? Help is available!
 
-<img class="abs" src="/media/s23-google-shape-306-p24.png" style="left:19px; top:125px; width:471px; height:362px">
+<img class="abs" src="/media/imagej-wiki.png" style="left:19px; top:125px; width:471px; height:362px">
 
-<img class="abs" src="/media/s23-google-shape-305-p24.png" style="left:531px; top:138px; width:399px; height:319px">
+<img class="abs" src="/media/image-sc-forum.png" style="left:531px; top:138px; width:399px; height:319px">
 
 <LinkButton left="144" top="505" width="221" height="37" href="https://imagej.net" icon="🌐" />
 <LinkButton left="577" top="505" width="305" height="37" href="https://forum.image.sc/" icon="💬" />

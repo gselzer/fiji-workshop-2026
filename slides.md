@@ -28,7 +28,7 @@ University of Wisconsin-Madison / Morgridge Institute for Research
 
 <img class="abs" src="/media/loci.png" style="left:746px; top:44px; width:185px">
 
-<img class="abs" src="/media/s01-google-shape-192-p49.png" style="left:31px; top:27px; width:250px">
+<img class="abs" src="/media/uw-logo.png" style="left:31px; top:27px; width:250px">
 
 <img class="abs" src="/media/morgridge.png" style="left:360px; top:27px; width:250px;">
 

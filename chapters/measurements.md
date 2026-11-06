@@ -103,7 +103,7 @@ class: fiji-slide
 
 <LinkButton left="530" top="502" width="419" height="32" href="https://imagej.net/imaging/particle-analysis" icon="🔬" label="Particle Analysis - ImageJ Wiki" />
 
-<img class="abs" src="/media/s65-picture-15.png" style="left:565px; top:132px; width:350px; height:345px">
+<img class="abs" src="/media/fiji-analyze-particles-dialog.png" style="left:565px; top:132px; width:350px; height:345px">
 
 ---
 class: fiji-slide
@@ -208,9 +208,9 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s68-google-shape-282-p37.gif" style="left:67px; top:366px; width:403px; height:174px">
+<img class="abs" src="/media/trackmate-animation.gif" style="left:67px; top:366px; width:403px; height:174px">
 
-<img class="abs" src="/media/s68-google-shape-280-p37.png" style="left:546px; top:126px; width:401px; height:414px">
+<img class="abs" src="/media/trackmate-interface.png" style="left:546px; top:126px; width:401px; height:414px">
 
 ---
 

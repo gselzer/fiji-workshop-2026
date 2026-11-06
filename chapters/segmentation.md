@@ -108,7 +108,7 @@ hide: true <!-- TODO: What to do with this...-->
 
 </div>
 
-<img class="abs" src="/media/s61-picture-7.png" style="left:36px; top:175px; width:205px; height:202px">
+<img class="abs" src="/media/threshold-default-result.png" style="left:36px; top:175px; width:205px; height:202px">
 
 <div class="abs" style="left:50px; top:187px; width:95px; height:28px; font-size:18px; background:#FFFFFF">
 
@@ -116,7 +116,7 @@ hide: true <!-- TODO: What to do with this...-->
 
 </div>
 
-<img class="abs" src="/media/s61-picture-10.png" style="left:258px; top:175px; width:205px; height:204px">
+<img class="abs" src="/media/threshold-percentile-result.png" style="left:258px; top:175px; width:205px; height:204px">
 
 <div class="abs" style="left:272px; top:187px; width:130px; height:28px; font-size:18px; background:#FFFFFF">
 
@@ -124,15 +124,15 @@ hide: true <!-- TODO: What to do with this...-->
 
 </div>
 
-<img class="abs" src="/media/s64-picture-2.png" style="left:510px; top:175px; width:140px; height:147px">
+<img class="abs" src="/media/watershed-before.png" style="left:510px; top:175px; width:140px; height:147px">
 
 <BlockArrow dir="right" x="653" y="228" w="25" h="35" color="#FF0000" />
 
-<img class="abs" src="/media/s64-picture-12.png" style="left:681px; top:175px; width:140px; height:147px">
+<img class="abs" src="/media/watershed-step1.png" style="left:681px; top:175px; width:140px; height:147px">
 
 <BlockArrow dir="right" x="824" y="228" w="25" h="35" color="#FF0000" />
 
-<img class="abs" src="/media/s64-picture-13.png" style="left:852px; top:175px; width:140px; height:147px">
+<img class="abs" src="/media/watershed-after.png" style="left:852px; top:175px; width:140px; height:147px">
 
 <!--
 Default → Calculates mean background and mean object intensity
@@ -156,13 +156,13 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s62-picture-5.png" style="left:12px; top:208px; width:464px; height:317px">
+<img class="abs" src="/media/labkit-interface.png" style="left:12px; top:208px; width:464px; height:317px">
 
-<img class="abs" src="/media/s62-picture-7.png" style="left:485px; top:185px; width:214px; height:174px">
+<img class="abs" src="/media/labkit-foreground.png" style="left:485px; top:185px; width:214px; height:174px">
 
-<img class="abs" src="/media/s62-picture-9.png" style="left:626px; top:246px; width:221px; height:177px">
+<img class="abs" src="/media/labkit-result.png" style="left:626px; top:246px; width:221px; height:177px">
 
-<img class="abs" src="/media/s62-picture-11.png" style="left:778px; top:330px; width:182px; height:181px">
+<img class="abs" src="/media/labkit-export.png" style="left:778px; top:330px; width:182px; height:181px">
 
 <BlockArrow dir="right" x="593" y="232" w="69" h="58" color="#96DCF8" rotate="45.224" />
 
@@ -174,7 +174,7 @@ class: fiji-slide
 
 # StarDist: Segmentation via Deep Learning
 
-<img class="abs" src="/media/s63-picture-2.png" style="left:661px; top:121px; width:141px; height:140px">
+<img class="abs" src="/media/stardist-result.png" style="left:661px; top:121px; width:141px; height:140px">
 
 - Segments cells using deep learning which can be done with pretrained models
 - Broad platform support via `cellcast`
@@ -182,7 +182,7 @@ class: fiji-slide
   - `Templates → Appose → Stardist cellcast (Python (Appose))`
   - `Run` button runs on the active image
 
-<img class="abs" src="/media/s63-picture-4.png" style="left:525px; top:284px; width:419px; height:242px">
+<img class="abs" src="/media/stardist-cellcast-script.png" style="left:525px; top:284px; width:419px; height:242px">
 
 ---
 

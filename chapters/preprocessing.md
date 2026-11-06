@@ -50,7 +50,7 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s57-picture-4.png" style="left:637px; top:118px; width:233px; height:426px">
+<img class="abs" src="/media/fiji-stitching-dialog.png" style="left:637px; top:118px; width:233px; height:426px">
 
 ---
 hide: true
@@ -71,23 +71,23 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s58-picture-4.png" style="left:582px; top:148px; width:72px; height:91px">
+<img class="abs" src="/media/stitching-tile-1.png" style="left:582px; top:148px; width:72px; height:91px">
 
-<img class="abs" src="/media/s58-picture-6.png" style="left:706px; top:145px; width:70px; height:92px">
+<img class="abs" src="/media/stitching-tile-2.png" style="left:706px; top:145px; width:70px; height:92px">
 
-<img class="abs" src="/media/s58-picture-8.png" style="left:820px; top:148px; width:71px; height:91px">
+<img class="abs" src="/media/stitching-tile-3.png" style="left:820px; top:148px; width:71px; height:91px">
 
-<img class="abs" src="/media/s58-picture-10.png" style="left:582px; top:277px; width:76px; height:92px">
+<img class="abs" src="/media/stitching-tile-4.png" style="left:582px; top:277px; width:76px; height:92px">
 
-<img class="abs" src="/media/s58-picture-12.png" style="left:710px; top:277px; width:67px; height:90px">
+<img class="abs" src="/media/stitching-tile-5.png" style="left:710px; top:277px; width:67px; height:90px">
 
-<img class="abs" src="/media/s58-picture-14.png" style="left:825px; top:277px; width:65px; height:92px">
+<img class="abs" src="/media/stitching-tile-6.png" style="left:825px; top:277px; width:65px; height:92px">
 
-<img class="abs" src="/media/s58-picture-16.png" style="left:582px; top:409px; width:70px; height:91px">
+<img class="abs" src="/media/stitching-tile-7.png" style="left:582px; top:409px; width:70px; height:91px">
 
-<img class="abs" src="/media/s58-picture-18.png" style="left:710px; top:409px; width:67px; height:91px">
+<img class="abs" src="/media/stitching-tile-8.png" style="left:710px; top:409px; width:67px; height:91px">
 
-<img class="abs" src="/media/s58-picture-20.png" style="left:824px; top:409px; width:72px; height:90px">
+<img class="abs" src="/media/stitching-tile-9.png" style="left:824px; top:409px; width:72px; height:90px">
 
 <Line x1="658" y1="182" x2="706" y2="182" color="#FF0000" width="5" arrow="end" />
 
@@ -138,11 +138,11 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s31-picture-5.png" style="left:473px; top:133px; width:217px; height:372px">
+<img class="abs" src="/media/fiji-bc-before.png" style="left:473px; top:133px; width:217px; height:372px">
 
-<img class="abs" src="/media/s31-picture-12.png" style="left:728px; top:135px; width:217px; height:368px">
+<img class="abs" src="/media/fiji-bc-after.png" style="left:728px; top:135px; width:217px; height:368px">
 
-<img class="abs" src="/media/s31-picture-14.png" style="left:658px; top:223px; width:104px; height:209px">
+<img class="abs" src="/media/fiji-bc-dialog.png" style="left:658px; top:223px; width:104px; height:209px">
 
 <BlockArrow dir="right" x="651" y="180" w="116" h="29" color="#FF0000" />
 
@@ -169,11 +169,11 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s33-picture-5.png" style="left:525px; top:199px; width:211px; height:338px">
+<img class="abs" src="/media/clahe-before.png" style="left:525px; top:199px; width:211px; height:338px">
 
-<img class="abs" src="/media/s33-picture-12.png" style="left:761px; top:199px; width:211px; height:338px">
+<img class="abs" src="/media/clahe-after.png" style="left:761px; top:199px; width:211px; height:338px">
 
-<img class="abs" src="/media/s33-picture-8.png" style="left:652px; top:150px; width:192px; height:174px">
+<img class="abs" src="/media/fiji-clahe-dialog.png" style="left:652px; top:150px; width:192px; height:174px">
 
 <BlockArrow dir="right" x="690" y="484" w="116" h="29" color="#FF0000" />
 
@@ -278,7 +278,7 @@ class: fiji-slide
 
 # Background subtraction improved thresholding
 
-<img class="abs" src="/media/s43-google-shape-588-p91.gif" style="left:178px; top:119px; width:623px; height:415px">
+<img class="abs" src="/media/nuclei-bg-subtraction-demo.gif" style="left:178px; top:119px; width:623px; height:415px">
 
 <div class="abs" style="left:146px; top:213px; width:95px; transform:rotate(-90deg); font-size:12px; text-align:center">
 
@@ -317,7 +317,7 @@ Binary operations:
 
 </div>
 
-<img class="abs" src="/media/s39-picture-10.png" style="left:117px; top:200px; width:280px; height:251px">
+<img class="abs" src="/media/fiji-image-calculator.png" style="left:117px; top:200px; width:280px; height:251px">
 
 <div class="abs" style="left:130px; top:375px; width:250px; height:26px; border:2px solid #FF0000; padding:0"></div>
 
@@ -331,9 +331,9 @@ hide: true
 
 # Surface plots are a good way to visualize this change in pixel value: *Before*
 
-<img class="abs" src="/media/s44-google-shape-531-p86.png" style="left:331px; top:151px; width:292px; height:249px">
+<img class="abs" src="/media/nuclei1-surface-plot-before.png" style="left:331px; top:151px; width:292px; height:249px">
 
-<img class="abs" src="/media/s44-google-shape-532-p86.png" style="left:643px; top:150px; width:292px; height:249px">
+<img class="abs" src="/media/nuclei2-surface-plot-before.png" style="left:643px; top:150px; width:292px; height:249px">
 
 <div class="abs" style="left:357px; top:107px; width:232px; font-size:18px; text-align:center">
 
@@ -355,9 +355,9 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s41-google-shape-540-p87.png" style="left:423px; top:409px; width:135px; height:135px">
+<img class="abs" src="/media/nuclei1-crop-before.png" style="left:423px; top:409px; width:135px; height:135px">
 
-<img class="abs" src="/media/s41-google-shape-543-p87.png" style="left:732px; top:409px; width:135px; height:135px">
+<img class="abs" src="/media/nuclei2-crop-before.png" style="left:732px; top:409px; width:135px; height:135px">
 
 ---
 hide: true
@@ -377,9 +377,9 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s45-google-shape-571-p89.png" style="left:180px; top:169px; width:292px; height:248px">
+<img class="abs" src="/media/nuclei1-surface-plot-after.png" style="left:180px; top:169px; width:292px; height:248px">
 
-<img class="abs" src="/media/s45-google-shape-572-p89.png" style="left:650px; top:168px; width:300px; height:255px">
+<img class="abs" src="/media/nuclei2-surface-plot-after.png" style="left:650px; top:168px; width:300px; height:255px">
 
 <div class="abs" style="left:253px; top:458px; width:475px; font-size:18px">
 
@@ -388,15 +388,15 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s41-google-shape-542-p87.png" style="left:16px; top:228px; width:150px; height:150px">
+<img class="abs" src="/media/nuclei1-crop-after.png" style="left:16px; top:228px; width:150px; height:150px">
 
-<img class="abs" src="/media/s41-google-shape-545-p87.png" style="left:484px; top:228px; width:154px; height:154px">
+<img class="abs" src="/media/nuclei2-crop-after.png" style="left:484px; top:228px; width:154px; height:154px">
 
 ---
 
 # What if the background is non-uniform?
 
-<img class="abs" src="/media/s47-google-shape-607-p94.png" style="left:29px; top:133px; width:449px; height:394px">
+<img class="abs" src="/media/confocal-nonuniform-bg.png" style="left:29px; top:133px; width:449px; height:394px">
 
 <div v-click.hide="1" class="abs" style="left:503px; top:141px; width:449px; font-size:24px">
 
@@ -413,7 +413,7 @@ hide: true
 
 <Line v-click.hide="1" x1="251" y1="421" x2="493" y2="524" color="#91DAED" width="2" />
 
-<img v-click.hide="1" class="abs" src="/media/s47-google-shape-611-p94.png" style="left:488px; top:346px; width:189px; height:179px">
+<img v-click.hide="1" class="abs" src="/media/confocal-nonuniform-bg-puncta.png" style="left:488px; top:346px; width:189px; height:179px">
 
 <img v-click="1" class="abs" src="/media/non_uniform_background_classic_threshold.gif" style="left:503px; top:133px; width:415px; height:364px">
 
@@ -437,11 +437,11 @@ High pass filter → Keep highest pixel values ("outliers")
 
 # Gaussian blur subtractsions extract puncta signal from the background
 
-<img class="abs" src="/media/s47-google-shape-607-p94.png" style="left:17px; top:166px; width:306px; height:269px">
+<img class="abs" src="/media/confocal-nonuniform-bg.png" style="left:17px; top:166px; width:306px; height:269px">
 
-<img class="abs" src="/media/s48-google-shape-619-p95.png" style="left:337px; top:166px; width:306px; height:269px">
+<img class="abs" src="/media/gaussian-blur-result.png" style="left:337px; top:166px; width:306px; height:269px">
 
-<img class="abs" src="/media/s48-google-shape-620-p95.png" style="left:659px; top:166px; width:306px; height:269px">
+<img class="abs" src="/media/gaussian-subtraction-result.png" style="left:659px; top:166px; width:306px; height:269px">
 
 <div class="abs" style="left:124px; top:450px; width:92px; font-size:18px; text-align:center">
 
@@ -488,23 +488,23 @@ class: fiji-slide
 
 # Gaussian subtraction in Fiji
 
-<img class="abs" src="/media/s47-google-shape-607-p94.png" style="left:20px; top:115px; width:155px; height:136px">
+<img class="abs" src="/media/confocal-nonuniform-bg.png" style="left:20px; top:115px; width:155px; height:136px">
 <div class="abs" style="left:20px; top:82px; width:155px; font-size:14px; font-weight:bold; text-align:center">Input image</div>
 
-<img v-click="1" class="abs" src="/media/s48-google-shape-619-p95.png" style="left:188px; top:345px; width:155px; height:136px">
+<img v-click="1" class="abs" src="/media/gaussian-blur-result.png" style="left:188px; top:345px; width:155px; height:136px">
 <div v-click="1" class="abs" style="left:160px; top:486px; width:210px; font-size:14px; font-weight:bold; text-align:center">Gaussian blur<br><code>Filters → Gaussian Blur</code></div>
 
-<img v-click="2" class="abs" src="/media/s48-google-shape-620-p95.png" style="left:355px; top:115px; width:155px; height:136px">
+<img v-click="2" class="abs" src="/media/gaussian-subtraction-result.png" style="left:355px; top:115px; width:155px; height:136px">
 <div v-click="2" class="abs" style="left:330px; top:82px; width:205px; font-size:14px; font-weight:bold; text-align:center">Subtract blur − input<br><code>Image Calculator</code></div>
 
-<img v-click="3" class="abs" src="/media/s49-google-shape-630-p96.png" style="left:523px; top:345px; width:155px; height:136px">
+<img v-click="3" class="abs" src="/media/gaussian-subtraction-threshold.png" style="left:523px; top:345px; width:155px; height:136px">
 <div v-click="3" class="abs" style="left:495px; top:486px; width:210px; font-size:14px; font-weight:bold; text-align:center">Apply threshold<br><code>Ctrl+Shift+T</code></div>
 
-<img v-click="4" class="abs" src="/media/s50-google-shape-641-p97.png" style="left:690px; top:115px; width:155px; height:136px">
+<img v-click="4" class="abs" src="/media/gaussian-subtraction-overlay.png" style="left:690px; top:115px; width:155px; height:136px">
 <div v-click="4" class="abs" style="left:685px; top:82px; width:160px; font-size:14px; font-weight:bold; text-align:center">Result overlay</div>
 
 <div class="abs" style="left:835px; top:368px; width:140px; border:1px solid #888; border-radius:6px; overflow:hidden; padding:0; background:#fff">
-  <img src="/media/s49-google-shape-629-p96.png" style="width:100%; display:block">
+  <img src="/media/gaussian-subtraction-orig-threshold.png" style="width:100%; display:block">
   <div style="font-size:11px; text-align:center; padding:2px 0; line-height:1.2">Original threshold</div>
 </div>
 
@@ -545,7 +545,7 @@ hide: true
 
 # Interested in performing this function? Use the script!
 
-<img class="abs" src="/media/s51-google-shape-662-p99.png" style="left:117px; top:125px; width:745px; height:365px">
+<img class="abs" src="/media/gaussian-subtraction-script.png" style="left:117px; top:125px; width:745px; height:365px">
 
 <div class="abs" style="left:222px; top:503px; width:535px; height:37px; font-size:24px; text-align:center; background:#FFFFFF; border:1px solid #000000; color:#000000">
 
@@ -557,7 +557,7 @@ hide: true
 
 # Deconvolution "undoes" diffraction blur
 
-<img class="abs" src="/media/s53-google-shape-169-p24.png" style="left:495px; top:124px; width:426px; height:111px">
+<img class="abs" src="/media/deconvolution-comparison.png" style="left:495px; top:124px; width:426px; height:111px">
 
 <div class="abs" style="left:771px; top:248px; width:94px; font-size:18px">
 
@@ -571,7 +571,7 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s53-google-shape-173-p24.gif" style="left:614px; top:290px; width:205px; height:233px">
+<img class="abs" src="/media/deconvolution-animation.gif" style="left:614px; top:290px; width:205px; height:233px">
 
 <div class="abs" style="left:0px; top:121px; width:473px; font-size:20px; --nest:1.00">
 
@@ -610,9 +610,9 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s54-google-shape-187-p26.gif" style="left:512px; top:157px; width:209px; height:209px">
+<img class="abs" src="/media/psf-simulated-xy.gif" style="left:512px; top:157px; width:209px; height:209px">
 
-<img class="abs" src="/media/s54-google-shape-188-p26.gif" style="left:582px; top:317px; width:64px; height:209px; transform:rotate(90deg)">
+<img class="abs" src="/media/psf-simulated-xz.gif" style="left:582px; top:317px; width:64px; height:209px; transform:rotate(90deg)">
 
 <div class="abs" style="left:532px; top:474px; width:164px; font-size:18px; text-align:center">
 
@@ -620,9 +620,9 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s54-google-shape-190-p26.gif" style="left:729px; top:376px; width:206px; height:92px">
+<img class="abs" src="/media/psf-real-xz.gif" style="left:729px; top:376px; width:206px; height:92px">
 
-<img class="abs" src="/media/s54-google-shape-191-p26.gif" style="left:728px; top:156px; width:209px; height:209px">
+<img class="abs" src="/media/psf-real-xy.gif" style="left:728px; top:156px; width:209px; height:209px">
 
 <div class="abs" style="left:772px; top:470px; width:122px; font-size:18px; text-align:center">
 
@@ -655,7 +655,7 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s55-google-shape-202-p27.png" style="left:426px; top:293px; width:486px; height:203px">
+<img class="abs" src="/media/rl-deconvolution-comparison.png" style="left:426px; top:293px; width:486px; height:203px">
 
 <div class="abs" style="left:448px; top:498px; width:81px; font-size:16px; text-align:center">
 
@@ -683,7 +683,7 @@ hide: true
 
 </div>
 
-<img class="abs" src="/media/s55-google-shape-208-p27.png" style="left:422px; top:116px; width:490px; height:177px">
+<img class="abs" src="/media/rl-deconvolution-cells.png" style="left:422px; top:116px; width:490px; height:177px">
 
 <div class="abs" style="left:0px; top:524px; width:436px; font-size:14px">
 

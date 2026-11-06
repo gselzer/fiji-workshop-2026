@@ -56,9 +56,9 @@ flowchart LR
 
 # Digital images are structured samples of a system
 
-<img class="abs" src="/media/s06-picture-2.png" style="left:23px; top:150px; width:580px; height:339px">
+<img class="abs" src="/media/confocal-sampling-image.png" style="left:23px; top:150px; width:580px; height:339px">
 
-<img class="abs" src="/media/s06-picture-6.png" style="left:640px; top:150px; width:317px; height:339px">
+<img class="abs" src="/media/confocal-sampling-detail.png" style="left:640px; top:150px; width:317px; height:339px">
 
 <BlockArrow dir="down" x="160" y="355" w="40" h="64" color="#FF0000" rotate="39.1212" />
 
@@ -68,11 +68,11 @@ flowchart LR
 
 # These samples can be stored in different ways
 
-<img class="abs" src="/media/s07-picture-2.png" style="left:25px; top:145px; width:542px; height:131px">
+<img class="abs" src="/media/bit-depth-grayscale-gradient.png" style="left:25px; top:145px; width:542px; height:131px">
 
-<img class="abs" src="/media/s07-picture-4.png" style="left:25px; top:287px; width:542px; height:83px">
+<img class="abs" src="/media/bit-depth-discrete-levels.png" style="left:25px; top:287px; width:542px; height:83px">
 
-<img class="abs" src="/media/s07-picture-6.png" style="left:580px; top:193px; width:374px; height:165px">
+<img class="abs" src="/media/bit-depth-chart.png" style="left:580px; top:193px; width:374px; height:165px">
 
 <div class="abs" style="left:646px; top:392px; width:243px; font-size:20px">
 
@@ -93,7 +93,7 @@ flowchart LR
 
 # These samples can be stored in different ways
 
-<img class="abs" src="/media/s08-picture-2.jpg" style="left:38px; top:121px; width:584px; height:388px">
+<img class="abs" src="/media/bit-depth-photo-comparison.jpg" style="left:38px; top:121px; width:584px; height:388px">
 
 <div class="abs" style="left:-17px; top:522px; width:695px; font-size:14px; text-align:center">
 
@@ -114,11 +114,11 @@ hide: true  <!-- TODO: What is this supposed to show? -->
 
 # 3D representations can also be used to visualize bit depth
 
-<img class="abs" src="/media/s09-picture-6.png" style="left:12px; top:145px; width:311px; height:311px">
+<img class="abs" src="/media/bit-depth-3d-8bit.png" style="left:12px; top:145px; width:311px; height:311px">
 
-<img class="abs" src="/media/s09-picture-8.png" style="left:334px; top:145px; width:311px; height:311px">
+<img class="abs" src="/media/bit-depth-3d-16bit.png" style="left:334px; top:145px; width:311px; height:311px">
 
-<img class="abs" src="/media/s09-picture-8-2.png" style="left:669px; top:145px; width:311px; height:311px">
+<img class="abs" src="/media/bit-depth-3d-32bit.png" style="left:669px; top:145px; width:311px; height:311px">
 
 <div class="abs" style="left:748px; top:465px; width:114px; font-size:33px">
 
@@ -284,7 +284,7 @@ Courtesy of Edward Evans
 <!-- Graphic 3: Fiji Image Properties dialog -->
 <div v-click="2" class="abs" style="left:520px; top:108px; width:440px; text-align:center">
 <div style="font-size:20px; font-weight:bold; margin-bottom:8px">Image → Properties</div>
-<img src="/media/s11-picture-9.png" style="width:100%; max-height:340px; object-fit:contain">
+<img src="/media/fiji-image-properties.png" style="width:100%; max-height:340px; object-fit:contain">
 </div>
 
 <!-- Graphic 4: OME logo below text on click 3 -->
@@ -297,7 +297,7 @@ Courtesy of Edward Evans
 
 # Quality In → Quality Out
 
-<img class="abs" src="/media/s14-picture-3.png" style="left:521px; top:125px; width:402px; height:422px">
+<img class="abs" src="/media/mouse-cortex-confocal.png" style="left:521px; top:125px; width:402px; height:422px">
 
 <div class="abs" style="left:32px; top:125px; width:508px; font-size:29px">
 
@@ -359,7 +359,7 @@ class: fiji-slide
 
 <!-- TODO Consider replacing with a GIF, maybe opening https://zenodo.org/records/5277605-->
 <!-- TODO Highlight Virtual Stacks -->
-<img class="abs" src="/media/s25-picture-7.png" style="left:335px; top:132px; width:625px; height:383px">
+<img class="abs" src="/media/bioformats-import-dialog.png" style="left:335px; top:132px; width:625px; height:383px">
 
 ---
 class: fiji-slide
@@ -367,11 +367,11 @@ class: fiji-slide
 
 # Visualizing your data
 
-<img class="abs" src="/media/s27-picture-6.png" style="left:341px; top:215px; width:213px; height:244px">
+<img class="abs" src="/media/fiji-2d-viewer.png" style="left:341px; top:215px; width:213px; height:244px">
 
-<img class="abs" src="/media/s27-picture-8.png" style="left:805px; top:211px; width:143px; height:240px">
+<img class="abs" src="/media/fiji-hyperstack-viewer.png" style="left:805px; top:211px; width:143px; height:240px">
 
-<img class="abs" src="/media/s27-picture-10.png" style="left:573px; top:215px; width:201px; height:244px">
+<img class="abs" src="/media/fiji-3d-stack-viewer.png" style="left:573px; top:215px; width:201px; height:244px">
 
 <div class="abs" style="left:21px; top:141px; width:320px; font-size:24px">
 
@@ -426,11 +426,11 @@ Z Stack
 
 </div>
 
-<img class="abs" src="/media/s28-picture-7.png" style="left:11px; top:181px; width:293px; height:354px">
+<img class="abs" src="/media/fiji-zstack.png" style="left:11px; top:181px; width:293px; height:354px">
 
-<img class="abs" src="/media/s28-picture-19.png" style="left:363px; top:214px; width:253px; height:290px">
+<img class="abs" src="/media/fiji-reslice-xz.png" style="left:363px; top:214px; width:253px; height:290px">
 
-<img class="abs" src="/media/s28-picture-21.png" style="left:652px; top:247px; width:306px; height:224px">
+<img class="abs" src="/media/fiji-reslice-yz.png" style="left:652px; top:247px; width:306px; height:224px">
 
 ---
 class: fiji-slide
@@ -460,15 +460,15 @@ Orthogonal View
 
 </div>
 
-<img class="abs" src="/media/s28-picture-7.png" style="left:11px; top:181px; width:293px; height:354px">
+<img class="abs" src="/media/fiji-zstack.png" style="left:11px; top:181px; width:293px; height:354px">
 
-<img class="abs" src="/media/s29-picture-9.png" style="left:518px; top:170px; width:97px; height:221px">
+<img class="abs" src="/media/fiji-orthogonal-yz.png" style="left:518px; top:170px; width:97px; height:221px">
 
-<img class="abs" src="/media/s29-picture-13.png" style="left:325px; top:408px; width:193px; height:128px">
+<img class="abs" src="/media/fiji-orthogonal-xz.png" style="left:325px; top:408px; width:193px; height:128px">
 
-<img class="abs" src="/media/s29-picture-15.png" style="left:325px; top:170px; width:193px; height:237px">
+<img class="abs" src="/media/fiji-orthogonal-xy.png" style="left:325px; top:170px; width:193px; height:237px">
 
-<img class="abs" src="/media/s29-picture-17.png" style="left:646px; top:181px; width:323px; height:343px">
+<img class="abs" src="/media/fiji-3d-viewer.png" style="left:646px; top:181px; width:323px; height:343px">
 
 ---
 class: fiji-slide
@@ -495,11 +495,11 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s26-google-shape-332-p27.png" style="left:29px; top:126px; width:495px; height:190px">
+<img class="abs" src="/media/lut-grayscale-comparison.png" style="left:29px; top:126px; width:495px; height:190px">
 
-<img class="abs" src="/media/s26-google-shape-334-p27.png" style="left:37px; top:323px; width:296px; height:213px">
+<img class="abs" src="/media/lut-color-examples.png" style="left:37px; top:323px; width:296px; height:213px">
 
-<img class="abs" src="/media/s26-google-shape-333-p27.png" style="left:348px; top:323px; width:181px; height:206px">
+<img class="abs" src="/media/lut-hilo-example.png" style="left:348px; top:323px; width:181px; height:206px">
 
 ---
 class: fiji-slide
@@ -513,9 +513,9 @@ class: fiji-slide
 
 </div>
 
-<img class="abs" src="/media/s34-picture-5.png" style="left:639px; top:126px; width:286px; height:404px">
+<img class="abs" src="/media/fiji-scale-bar-dialog.png" style="left:639px; top:126px; width:286px; height:404px">
 
-<img class="abs" src="/media/s34-picture-9.png" style="left:74px; top:234px; width:475px; height:296px">
+<img class="abs" src="/media/mouse-hippocampus-scale-bar.png" style="left:74px; top:234px; width:475px; height:296px">
 
 <div class="abs" style="left:77px; top:239px; width:234px; font-size:18px">
 
