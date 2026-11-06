@@ -3,11 +3,21 @@
   "tasks": [
     {
       "label": "Slidev: run deck",
-      "type": "npm",
-      "script": "dev",
+      "type": "shell",
+      "command": "npm run dev < nul",
+      "options": {
+        "shell": {
+          "executable": "C:\\Windows\\System32\\cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "isBackground": true,
       "problemMatcher": [],
-      "group": { "kind": "build", "isDefault": true }
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
     },
     {
       "label": "Slidev: export PDF",
