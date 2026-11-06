@@ -13,7 +13,7 @@
 
 <img class="abs" src="/media/loci.png" style="left:769px; top:11px; width:171px; height:85px">
 
-<img class="abs" src="/media/fiji.png" style="left:90px; top:300px; width:130px; height:130px">
+<img class="abs" src="https://fiji.sc/site/logo.png" style="left:90px; top:300px; width:130px; height:130px">
 
 <img class="abs" src="/media/micro-manager.png" style="left:245px; top:303px; width:320px; height:124px; padding:4px 10px; background:#000">
 
@@ -76,8 +76,8 @@ flowchart LR
 <v-click>but there are many great alternatives!</v-click>
 
 <!-- Fiji / ImageJ — revealed on click 6; red border highlights the focus area -->
-<img v-click="6" class="abs" src="/media/s13-picture-2.png" style="left:38px; top:350px; width:120px; height:120px; object-fit:contain">
-<img v-click="6" class="abs" src="/media/s13-picture-4.png" style="left:234px; top:350px; width:120px; height:120px; object-fit:contain">
+<img v-click="6" class="abs" src="https://fiji.sc/site/logo.png" style="left:38px; top:350px; width:120px; height:120px; object-fit:contain">
+<img v-click="6" class="abs" src="https://imagej.net/media/icons/imagej.png" style="left:234px; top:350px; width:120px; height:120px; object-fit:contain">
 <div v-click="6" class="abs" style="left:38px; top:478px; width:120px; font-size:18px; text-align:center">
 
 **Fiji**
@@ -90,19 +90,19 @@ flowchart LR
 </div>
 
 <!-- Alternatives — revealed on click 7 -->
-<img v-click="7" class="abs" src="/media/s13-picture-8.jpg" style="left:430px; top:350px; width:120px; height:120px; object-fit:contain">
+<img v-click="7" class="abs" src="https://avatars.githubusercontent.com/u/21292410?s=200&v=4" style="left:430px; top:350px; width:120px; height:120px; object-fit:contain">
 <div v-click="7" class="abs" style="left:430px; top:478px; width:120px; font-size:18px; text-align:center">
 
 **QuPath**
 
 </div>
-<img v-click="7" class="abs" src="/media/s13-picture-10.png" style="left:626px; top:350px; width:120px; height:120px; object-fit:contain">
+<img v-click="7" class="abs" src="https://medschool.vanderbilt.edu/cisr/wp-content/uploads/sites/100/2026/10/751d8d54b4aff0f37c0be5543828cab9-675x480-c-default.png" style="left:626px; top:350px; width:120px; height:120px; object-fit:contain">
 <div v-click="7" class="abs" style="left:626px; top:478px; width:120px; font-size:18px; text-align:center">
 
 **Imaris**
 
 </div>
-<img v-click="7" class="abs" src="/media/s13-picture-12.png" style="left:822px; top:350px; width:120px; height:120px; object-fit:contain">
+<img v-click="7" class="abs" src="https://cellprofiler.org/files/files/cellprofiler/files/2017_11_21-cp_logo_black_tm_4.png" style="left:822px; top:350px; width:120px; height:120px; object-fit:contain">
 <div v-click="7" class="abs" style="left:822px; top:478px; width:120px; font-size:18px; text-align:center">
 
 **Cellprofiler**

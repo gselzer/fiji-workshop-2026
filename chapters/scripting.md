@@ -123,7 +123,7 @@ class: fiji-slide
 # Other applications handle replication differently
 
 <img class="abs" src="/media/cell_profiler_collage.png" style="left:50px; top:76px; width:378px">
-<img class="abs" src="/media/cell_profiler_logo.png" style="left:70px; top:455px; width:322px">
+<img class="abs" src="https://cellprofiler.org/files/files/cellprofiler/files/2017_11_21-cp_logo_black_tm_4.png" style="left:70px; top:455px; width:322px">
 <img class="abs" src="/media/knime_screenshot.png" style="left:544px; top:120px; width:349px">
 <img class="abs" src="/media/knime_logo.png" style="left:637px; top:461px; width:216px">
 
