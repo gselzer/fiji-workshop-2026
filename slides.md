@@ -64,6 +64,3 @@ src: ./chapters/measurements.md
 src: ./chapters/scripting.md
 ---
 
----
-src: ./chapters/lab-exercise.md
----

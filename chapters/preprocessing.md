@@ -325,74 +325,6 @@ Binary operations:
 <Line x1="220" y1="480" x2="220" y2="410" color="#CC0000" width="2" arrow="end" />
 
 ---
-<!-- TODO: Ask Ed about this slide-->
-hide: true
----
-
-# Surface plots are a good way to visualize this change in pixel value: *Before*
-
-<img class="abs" src="/media/nuclei1-surface-plot-before.png" style="left:331px; top:151px; width:292px; height:249px">
-
-<img class="abs" src="/media/nuclei2-surface-plot-before.png" style="left:643px; top:150px; width:292px; height:249px">
-
-<div class="abs" style="left:357px; top:107px; width:232px; font-size:18px; text-align:center">
-
-*Nuclei 1 crop surface plot*
-
-</div>
-
-<div class="abs" style="left:670px; top:107px; width:232px; font-size:18px; text-align:center">
-
-*Nuclei 2 crop surface plot*
-
-</div>
-
-<div class="abs" style="left:33px; top:162px; width:277px; font-size:24px; --nest:1.00">
-
-- Surface plot → 3D visualization tool that maps intensities of a 2D image
-  - Creates a topographic map
-- Analyze → Surface Plot…
-
-</div>
-
-<img class="abs" src="/media/nuclei1-crop-before.png" style="left:423px; top:409px; width:135px; height:135px">
-
-<img class="abs" src="/media/nuclei2-crop-before.png" style="left:732px; top:409px; width:135px; height:135px">
-
----
-hide: true
----
-
-# Surface plots are a good way to visualize this change in pixel value: *After*
-
-<div class="abs" style="left:211px; top:137px; width:232px; font-size:18px; text-align:center">
-
-*Nuclei 1 crop surface plot*
-
-</div>
-
-<div class="abs" style="left:683px; top:139px; width:232px; font-size:18px; text-align:center">
-
-*Nuclei 2 crop surface plot*
-
-</div>
-
-<img class="abs" src="/media/nuclei1-surface-plot-after.png" style="left:180px; top:169px; width:292px; height:248px">
-
-<img class="abs" src="/media/nuclei2-surface-plot-after.png" style="left:650px; top:168px; width:300px; height:255px">
-
-<div class="abs" style="left:253px; top:458px; width:475px; font-size:18px">
-
-- Decreased background shown by bottom of slope (left)
-- Greater range of values
-
-</div>
-
-<img class="abs" src="/media/nuclei1-crop-after.png" style="left:16px; top:228px; width:150px; height:150px">
-
-<img class="abs" src="/media/nuclei2-crop-after.png" style="left:484px; top:228px; width:154px; height:154px">
-
----
 
 # What if the background is non-uniform?
 
@@ -536,20 +468,6 @@ class: fiji-slide
 <div class="abs" style="left:749px; top:517px; width:231px; font-size:16px; text-align:right">
 
 Data from Sofia Romero
-
-</div>
-
----
-hide: true
----
-
-# Interested in performing this function? Use the script!
-
-<img class="abs" src="/media/gaussian-subtraction-script.png" style="left:117px; top:125px; width:745px; height:365px">
-
-<div class="abs" style="left:222px; top:503px; width:535px; height:37px; font-size:24px; text-align:center; background:#FFFFFF; border:1px solid #000000; color:#000000">
-
-<span style="color:#0000FF">**<https://github.com/elevans/fiji-scripts/>**</span>
 
 </div>
 

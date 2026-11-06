@@ -109,42 +109,6 @@ flowchart LR
 </div>
 
 ---
-hide: true  <!-- TODO: What is this supposed to show? -->
----
-
-# 3D representations can also be used to visualize bit depth
-
-<img class="abs" src="/media/bit-depth-3d-8bit.png" style="left:12px; top:145px; width:311px; height:311px">
-
-<img class="abs" src="/media/bit-depth-3d-16bit.png" style="left:334px; top:145px; width:311px; height:311px">
-
-<img class="abs" src="/media/bit-depth-3d-32bit.png" style="left:669px; top:145px; width:311px; height:311px">
-
-<div class="abs" style="left:748px; top:465px; width:114px; font-size:33px">
-
-**32 bit**
-
-</div>
-
-<div class="abs" style="left:433px; top:465px; width:114px; font-size:33px">
-
-**16 bit**
-
-</div>
-
-<div class="abs" style="left:133px; top:465px; width:114px; font-size:33px">
-
-**8 bit**
-
-</div>
-
-<div class="abs" style="left:762px; top:108px; width:338px; font-size:18px">
-
-Courtesy of Edward Evans
-
-</div>
-
----
 
 # **Metadata** organizes your samples
 
@@ -404,33 +368,6 @@ class: fiji-slide
 Z stack → Series of images taken at different focal planes along the depth of a sample
 Talk about max intensity projection
 -->
-
----
-class: fiji-slide
-hide: true
----
-
-# There are multiple ways to look at 3D data: *Reslice*
-
-<div class="abs" style="left:66px; top:111px; width:125px; font-size:20px; text-align:center">
-
-Z Stack
-
-</div>
-
-<div class="abs" style="left:444px; top:133px; width:414px; font-size:20px; text-align:center">
-
-**To get a different view:**
-
-`Image → Stacks → Reslice`
-
-</div>
-
-<img class="abs" src="/media/fiji-zstack.png" style="left:11px; top:181px; width:293px; height:354px">
-
-<img class="abs" src="/media/fiji-reslice-xz.png" style="left:363px; top:214px; width:253px; height:290px">
-
-<img class="abs" src="/media/fiji-reslice-yz.png" style="left:652px; top:247px; width:306px; height:224px">
 
 ---
 class: fiji-slide

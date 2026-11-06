@@ -1,28 +1,3 @@
----
-# Maybe only needed for AQLM
-hide: true
----
-
-# About Me!
-
-<div class="abs" style="left:45px; top:120px; width:454px; font-size:24px">
-
-- Eliceiri Lab since 2017
-- Based in Chicago, IL
-- Core developer for Fiji and Micro-Manager
-
-</div>
-
-<img class="abs" src="/media/headshot.jpg" style="left:610px; top:145px; width:291px; height:366px; object-fit:cover">
-
-<img class="abs" src="/media/loci.png" style="left:769px; top:11px; width:171px; height:85px">
-
-<img class="abs" src="https://fiji.sc/site/logo.png" style="left:90px; top:300px; width:130px; height:130px">
-
-<img class="abs" src="/media/micro-manager.png" style="left:245px; top:303px; width:320px; height:124px; padding:4px 10px; background:#000">
-
----
-
 # Outline
 
 <div class="abs" style="left:36px; top:106px; width:460px; font-size:20px">

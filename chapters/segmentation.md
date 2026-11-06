@@ -46,6 +46,10 @@ class: fiji-slide
 <img v-click="1" class="abs" src="/media/blobs_thresholding_widget.png" style="left:462px; top:230px; width:195px">
 <div v-click="1" class="abs" style="left:245px; top:178px; width:420px; font-size:14px; font-weight:bold; text-align:center"><code>Ctrl+Shift+T</code> to threshold</div>
 
+<div v-click="2" class="abs" style="left:290px; top:482px; width:140px; font-size:12px; color:#00c02a; text-align:center; line-height:1.3">
+  <strong>Threshold Strategy</strong><br>
+  <span style="font-size:10px"><a href="https://en.wikipedia.org/wiki/Otsu%27s_method">Otsu</a> is a nice option!</span>
+</div>
 <div v-click="2" class="abs" style="left:440px; top:482px; width:120px; font-size:12px; color:#c03000; text-align:center; line-height:1.3">
   <strong>Dark background</strong><br>
   <span style="font-size:10px">Select if your objects are bright</span>
@@ -69,16 +73,22 @@ class: fiji-slide
     <marker id="arr8-b" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0,0 8,3 0,6" fill="#004080"/>
     </marker>
+    <marker id="arr8-g" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#00c02a"/>
+    </marker>
   </defs>
   <g v-click="1">
     <path d="M 205 316 H 260" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arr8)"/>
   </g>
   <g v-click="2">
     <!-- Dark background highlight -->
+    <rect x="485" y="352" width="81" height="16" fill="rgba(0, 192, 48, 0.1)" stroke="#00c02a" stroke-width="1.5" rx="2"/>
+    <!-- Dark background highlight -->
     <rect x="478" y="372" width="81" height="16" fill="rgba(192,48,0,0.1)" stroke="#c03000" stroke-width="1.5" rx="2"/>
     <!-- Stack histogram highlight -->
     <rect x="560" y="372" width="84" height="16" fill="rgba(0,64,128,0.1)" stroke="#004080" stroke-width="1.5" rx="2"/>
     <!-- Callout arrows -->
+    <path d="M 360 479 L 485 370" stroke="#00c02a" stroke-width="1.2" fill="none" marker-end="url(#arr8-g)"/>
     <path d="M 500 479 L 519 392" stroke="#c03000" stroke-width="1.2" fill="none" marker-end="url(#arr8-o)"/>
     <path d="M 616 479 L 605 392" stroke="#004080" stroke-width="1.2" fill="none" marker-end="url(#arr8-b)"/>
   </g>
@@ -86,61 +96,6 @@ class: fiji-slide
     <path d="M 657 358 Q 700 358 750 316" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arr8)"/>
   </g>
 </svg>
-
----
-class: fiji-slide
-hide: true <!-- TODO: What to do with this...-->
----
-
-# Pitfalls in Classical Segmentation
-
-<div class="abs" style="left:36px; top:95px; width:420px; font-size:20px">
-
-**1. Choose the right threshold**
-- Fiji's preset thresholds differ — try them on your data
-
-</div>
-
-<div class="abs" style="left:510px; top:95px; width:420px; font-size:20px">
-
-**2. Touching objects → use watershed**
-- Process → Binary → Watershed
-
-</div>
-
-<img class="abs" src="/media/threshold-default-result.png" style="left:36px; top:175px; width:205px; height:202px">
-
-<div class="abs" style="left:50px; top:187px; width:95px; height:28px; font-size:18px; background:#FFFFFF">
-
-**Default**
-
-</div>
-
-<img class="abs" src="/media/threshold-percentile-result.png" style="left:258px; top:175px; width:205px; height:204px">
-
-<div class="abs" style="left:272px; top:187px; width:130px; height:28px; font-size:18px; background:#FFFFFF">
-
-**Percentile**
-
-</div>
-
-<img class="abs" src="/media/watershed-before.png" style="left:510px; top:175px; width:140px; height:147px">
-
-<BlockArrow dir="right" x="653" y="228" w="25" h="35" color="#FF0000" />
-
-<img class="abs" src="/media/watershed-step1.png" style="left:681px; top:175px; width:140px; height:147px">
-
-<BlockArrow dir="right" x="824" y="228" w="25" h="35" color="#FF0000" />
-
-<img class="abs" src="/media/watershed-after.png" style="left:852px; top:175px; width:140px; height:147px">
-
-<!--
-Default → Calculates mean background and mean object intensity
-Percentile → Assumes a certain percentage of pixels are in the foreground
-In the end, just use whichever works for your data
-Be sure to pay attention to the "Dark Background" box and check when it applies
-Watershed: separates touching objects that merge after thresholding
--->
 
 ---
 class: fiji-slide
