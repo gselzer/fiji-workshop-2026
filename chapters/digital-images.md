@@ -312,7 +312,7 @@ class: fiji-slide
 <div class="abs" style="left:20px; top:127px; width:310px; font-size:24px; --nest:1.00">
 
 - Drag and drop
-- File → Open…
+- `File → Open…`
 - Bio-Formats supports **many** proprietary file formats
   - `.nd2` for Nikon
   - `.czi` for Zeiss

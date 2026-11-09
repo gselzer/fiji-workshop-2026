@@ -31,10 +31,13 @@ flowchart LR
 
 <div class="abs" style="left:42px; top:133px; width:516px; font-size:24px; --nest:1.00">
 
-- Imaging large samples at high resolution requires a tiled scan
-  - Will not fit in single field of view
+- Grid scans
+- Large segments at high resolution
 
 </div>
+
+<TiledAcquisitionGraphic class="abs" style="left:500px; top:95px;" :scale="1.1" />
+
 ---
 class: fiji-slide
 ---
@@ -242,10 +245,11 @@ class: fiji-slide
 <div class="abs" style="left:20px; top:82px; width:185px; font-size:14px; font-weight:bold; text-align:center">Input image</div>
 
 <img v-click="1" class="abs" src="/media/nuclei2_mean.png" style="left:225px; top:325px; width:185px">
-<div v-click="1" class="abs" style="left:192px; top:300px; width:250px; font-size:14px; font-weight:bold; text-align:center">Mean filter (<code>radius=5</code>)</div>
+<img v-click="1" class="abs" src="/media/fiji_mean_filter_config.png" style="left:365px; top:400px; width:80px">
+<div v-click="1" class="abs" style="left:192px; top:300px; width:250px; font-size:14px; font-weight:bold; text-align:center"><code>Process → Filters → Mean</code></div>
 
 <img v-click="2" class="abs" src="/media/nuclei2_mean_multiplied.png" style="left:435px; top:115px; width:185px">
-<div v-click="2" class="abs" style="left:435px; top:82px; width:185px; font-size:14px; font-weight:bold; text-align:center">Multiply</div>
+<div v-click="2" class="abs" style="left:405px; top:82px; width:245px; font-size:14px; font-weight:bold; text-align:center"><code>Process → Image Calculator... → Multiply</code></div>
 
 <img v-click="3" class="abs" src="/media/nuclei2_mean_multiplied_otsu.png" style="left:645px; top:325px; width:185px">
 <div v-click="3" class="abs" style="left:608px; top:300px; width:258px; font-size:14px; font-weight:bold; text-align:center">Otsu threshold</div>
@@ -424,10 +428,10 @@ class: fiji-slide
 <div class="abs" style="left:20px; top:82px; width:155px; font-size:14px; font-weight:bold; text-align:center">Input image</div>
 
 <img v-click="1" class="abs" src="/media/gaussian-blur-result.png" style="left:188px; top:345px; width:155px; height:136px">
-<div v-click="1" class="abs" style="left:160px; top:486px; width:210px; font-size:14px; font-weight:bold; text-align:center">Gaussian blur<br><code>Filters → Gaussian Blur</code></div>
+<div v-click="1" class="abs" style="left:160px; top:486px; width:210px; font-size:14px; font-weight:bold; text-align:center"><code>Process → Filters → Gaussian Blur</code></div>
 
 <img v-click="2" class="abs" src="/media/gaussian-subtraction-result.png" style="left:355px; top:115px; width:155px; height:136px">
-<div v-click="2" class="abs" style="left:330px; top:82px; width:205px; font-size:14px; font-weight:bold; text-align:center">Subtract blur − input<br><code>Image Calculator</code></div>
+<div v-click="2" class="abs" style="left:305px; top:82px; width:255px; font-size:14px; font-weight:bold; text-align:center"><code>Process → Image Calculator... → Subtract</code></div>
 
 <img v-click="3" class="abs" src="/media/gaussian-subtraction-threshold.png" style="left:523px; top:345px; width:155px; height:136px">
 <div v-click="3" class="abs" style="left:495px; top:486px; width:210px; font-size:14px; font-weight:bold; text-align:center">Apply threshold<br><code>Ctrl+Shift+T</code></div>
