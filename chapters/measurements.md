@@ -111,6 +111,15 @@ class: fiji-slide
 
 # Selecting measurements
 
+<div class="abs" style="left:760px; top:15px;">
+  <div style="position:relative">
+    <ShapeGraphic :scale="0.5" />
+    <div style="position:absolute; top:-6px; right:-6px;">
+      <ShapeGraphic :scale="0.25" segmented />
+    </div>
+  </div>
+</div>
+
 <div class="abs" style="left:11px; top:134px; width:621px; font-size:24px; --nest:1.00">
 
 `Analyze → Set Measurements…`
