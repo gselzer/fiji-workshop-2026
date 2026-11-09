@@ -95,14 +95,14 @@ flowchart LR
 
 </div>
 
-<Line v-click="1" x1="320" y1="375" x2="350" y2="270" color="#e57373" width="2" arrow="end" />
-<div v-click="1" class="abs" style="left:220px; top:378px; width:200px; font-size:16px; text-align:center; color:#d32f2f">
-  Making it easy to spot objects of interest
+<Line v-click="1" x1="490" y1="455" x2="490" y2="270" color="#e57373" width="2" arrow="end" />
+<div v-click="1" class="abs" style="left:390px; top:458px; width:200px; font-size:16px; text-align:center; color:#d32f2f">
+  Identifying where objects are
 </div>
 
-<Line v-click="2" x1="490" y1="455" x2="490" y2="270" color="#e57373" width="2" arrow="end" />
-<div v-click="2" class="abs" style="left:390px; top:458px; width:200px; font-size:16px; text-align:center; color:#d32f2f">
-  Identifying where objects are
+<Line v-click="2" x1="320" y1="375" x2="350" y2="270" color="#e57373" width="2" arrow="end" />
+<div v-click="2" class="abs" style="left:220px; top:378px; width:200px; font-size:16px; text-align:center; color:#d32f2f">
+  Making it easy to spot objects of interest
 </div>
 
 <Line v-click="3" x1="660" y1="375" x2="640" y2="270" color="#e57373" width="2" arrow="end" />
