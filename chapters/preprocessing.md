@@ -476,6 +476,8 @@ Data from Sofia Romero
 </div>
 
 ---
+hide: true
+---
 
 # Deconvolution "undoes" diffraction blur
 
@@ -516,6 +518,8 @@ Data from Sofia Romero
 
 </div>
 
+---
+hide: true
 ---
 
 # … using the point spread function
@@ -564,6 +568,8 @@ Data from Sofia Romero
 
 </div>
 
+---
+hide: true
 ---
 
 <!-- TODO: Get a slide showing this in Fiji -->
