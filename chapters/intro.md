@@ -1,27 +1,3 @@
-# Outline
-
-<div class="abs" style="left:36px; top:106px; width:460px; font-size:20px">
-
-- The Bioimaging Pipeline
-- Fiji Overview
-- Digital Images
-  - Fundamentals
-  - Visualization
-- Quantitative Measurements
-- Image Analysis
-  - Segmentation
-  - Preprocessing
-  - Measurements
-    - Segment Analysis
-    - Tracking
-    - Colocalization
-- Scripting
-<!-- LLMs in Fiji -->
-
-</div>
-
----
-
 # The Bioimaging Pipeline
 
 ```mermaid
