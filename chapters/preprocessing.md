@@ -323,10 +323,10 @@ Binary operations:
 
 <img class="abs" src="/media/fiji-image-calculator.png" style="left:117px; top:200px; width:280px; height:251px">
 
-<div class="abs" style="left:130px; top:375px; width:250px; height:26px; border:2px solid #FF0000; padding:0"></div>
+<div class="abs" style="left:130px; top:353px; width:250px; height:26px; border:2px solid #FF0000; padding:0"></div>
 
 <div class="abs" style="left:150px; top:480px; width:305px; font-size:15px; font-weight:bold; color:#CC0000">Don't overwrite your data!</div>
-<Line x1="220" y1="480" x2="220" y2="410" color="#CC0000" width="2" arrow="end" />
+<Line x1="220" y1="480" x2="220" y2="390" color="#CC0000" width="2" arrow="end" />
 
 ---
 
