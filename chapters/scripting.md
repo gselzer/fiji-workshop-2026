@@ -117,13 +117,3 @@ class: fiji-slide
 <img class="abs" src="/media/macro_recording.gif" style="left:350px; top:137px; width:600px">
 
 <LinkButton left="350" top="490" width="600" height="36" href="https://imagej.net/scripting/macro#the-recorder" icon="📖" label="imagej.net/scripting/macro#the-recorder" />
-
----
-
-# Other applications handle replication differently
-
-<img class="abs" src="/media/cell_profiler_collage.png" style="left:50px; top:76px; width:378px">
-<img class="abs" src="https://cellprofiler.org/files/files/cellprofiler/files/2017_11_21-cp_logo_black_tm_4.png" style="left:70px; top:455px; width:322px">
-<img class="abs" src="/media/knime_screenshot.png" style="left:544px; top:120px; width:349px">
-<img class="abs" src="/media/knime_logo.png" style="left:637px; top:461px; width:216px">
-
