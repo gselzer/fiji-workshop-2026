@@ -240,6 +240,39 @@ class: fiji-slide
 - Suggests physical proximity or co-expression
 - **Pixel-based:** Pearson's / Manders' correlation coefficients
 - **Object-based:** fraction of objects that overlap with a counterpart channel
+- *Quite the rabbit hole...*
 
 </div>
+
+<img class="abs" src="/media/colocalization_wang_et_al.png" style="left:600px; top:130px; width:225px">
+<div class="abs" style="left:600px; top:520px; width:250px; font-size:14px">Adapted from Wang. et al (2019)</div>
+
+---
+class: fiji-slide
+---
+
+# Colocalization in Fiji: `Coloc2`
+
+<div class="abs" style="left:760px; top:15px;">
+  <div style="position:relative">
+    <ColocGraphic :scale="0.5" />
+    <div style="position:absolute; top:-6px; right:-6px;">
+      <ColocGraphic :scale="0.25" segmented />
+    </div>
+  </div>
+</div>
+
+<div class="abs" style="left:33px; top:131px; width:460px; font-size:26px">
+
+- `Analyze → Colocalization → Coloc 2`
+  - Comes with Fiji!
+- Allows a ROI or a binary pixel mask
+- Supports Li, Manders', Kendall's, Spearman's Colocalization Coefficients
+
+</div>
+
+<LinkButton left="50" top="502" width="419" height="32" href="https://imagej.net/plugins/coloc-2" icon="🔬" label="Coloc 2 - ImageJ Wiki" />
+
+<img class="abs" src="/media/coloc2_dialog.png" style="left:600px; top:130px; width:212px">
+
 
