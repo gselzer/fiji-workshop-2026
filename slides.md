@@ -75,3 +75,43 @@ src: ./chapters/measurements.md
 src: ./chapters/scripting.md
 ---
 
+---
+
+# Take-home messages
+
+- Quality images in → Quality measurements out
+  - Watch your histograms during acquisition
+- Pre-processing can rescue difficult segmentations
+- Record your workflows
+  - Ideally write scripts
+- Help is available at the image.sc forum
+
+<b>Questions?</b>
+
+<div class="abs" style="left:550px; top:90px; width:350px; background:#e3f2fd; border:1.5px solid #0E2841; border-radius:10px; padding:12px">
+
+<div style="font-size:22px; font-weight:bold; margin-bottom:10px; display:flex; align-items:center; justify-content:center; gap:6px">
+  Fiji @
+  <img src="/media/loci.png" style="height:28px; object-fit:contain">
+</div>
+
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; justify-items:center">
+  <div style="display:flex; flex-direction:column; align-items:center; gap:4px">
+    <img src="https://loci.wisc.edu/wp-content/uploads/sites/1939/2023/01/Curtis2-150x150.jpg" style="height:120px;">
+    <div style="font-size:13px; text-align:center">Curtis Rueden</div>
+  </div>
+  <div style="display:flex; flex-direction:column; align-items:center; gap:4px">
+    <img src="https://loci.wisc.edu/wp-content/uploads/sites/1939/2023/01/Screen-Shot-2023-01-31-at-2.09.32-PM-150x150.png" style="height:120px;">
+    <div style="font-size:13px; text-align:center">Mark Hiner-Weir</div>
+  </div>
+  <div style="display:flex; flex-direction:column; align-items:center; gap:4px">
+    <img src="https://loci.wisc.edu/wp-content/uploads/sites/1939/2023/01/Evans_Edward-II-e1521132292607-240x300-1-e1589998832473-150x150.jpg" style="height:120px;">
+    <div style="font-size:13px; text-align:center">Edward Evans</div>
+  </div>
+  <div style="display:flex; flex-direction:column; align-items:center; gap:4px">
+    <img src="https://loci.wisc.edu/wp-content/uploads/sites/1939/2023/01/gabriel-150x150.jpg" style="height:120px;">
+    <div style="font-size:13px; text-align:center">Gabriel Selzer</div>
+  </div>
+</div>
+
+</div>
